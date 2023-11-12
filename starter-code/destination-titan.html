@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Space tourism website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bodic">
+      <div class="topper">
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="logo1"
+            width="48"
+            height="48"
+          >
+            <g fill="none" fill-rule="evenodd">
+              <circle cx="24" cy="24" r="24" fill="#FFF" />
+              <path
+                fill="#0B0D17"
+                d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"
+              />
+            </g>
+          </svg>
+        </div>
+        <div class="backline">
+          <div class="line"></div>
+        </div>
+        <div class="parttop">
+          <button class="btn">
+            <div class="hommer">
+              <li>
+                <a href="index.html"><b>00 </b> &nbsp;&nbsp;&nbsp;Home</a>
+              </li>
+            </div></button
+          ><button class="btn active">
+            <div class="hommer">
+              <li>
+                <a href="destination-moon.html"
+                  ><b>01 </b> &nbsp;&nbsp;&nbsp;Destination</a
+                >
+              </li>
+            </div></button
+          ><button class="btn">
+            <div class="hommer">
+              <li>
+                <a href="crew-commander.html">
+                  <b>02 </b> &nbsp;&nbsp;&nbsp;Crew</a
+                >
+              </li>
+            </div></button
+          ><button class="btn">
+            <div class="hommer">
+              <li>
+                <a href="technology-capsule.html">
+                  <b>03 </b> &nbsp;&nbsp;&nbsp;Technology</a
+                >
+              </li>
+            </div>
+          </button>
+        </div>
+
+
+
+        
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <div> <li>
+              <a href="index.html">&nbsp;&nbsp;&nbsp;Home</a></li>
+            </div>
+            <div> <li>
+              <a href="destination-moon.html"
+                >&nbsp;&nbsp;&nbsp;Destination</a></li>
+            </div>
+            <div> <li>
+              <a href="crew-commander.html"> &nbsp;&nbsp;&nbsp;Crew</a></li>
+            </div>
+            <div> <li>
+              <a href="technology-capsule.html">
+                &nbsp;&nbsp;&nbsp;Technology</a></li>
+            </div>
+          </div>
+        </div>
+        
+        
+        <span class="burger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        
+
+
+
+
+
+
+
+      </div>
+
+      <div class="divide">
+        <div class="side1">
+          <div class="desti">
+            <b style="color: darkgray"> 01 </b> PICK YOUR DESTINATION
+          </div>
+          <div class="moon">
+            <img
+              src="/starter-code/assets/destination/image-titan.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="allof">
+          <div class="planets">
+            <li>
+              <div class="plan">
+                <a href="destination-moon.html"
+                  ><button class="bttn">Moon</button></a
+                >
+              </div>
+            </li>
+            <li>
+              <div class="plan">
+                <a href="destination-mars.html"
+                  ><button class="bttn">Mars</button></a
+                >
+              </div>
+            </li>
+            <li>
+              <div class="plan">
+                <a href="destination-europa.html"
+                  ><button class="bttn">Europa</button></a
+                >
+              </div>
+            </li>
+            <li>
+              <div class="plan">
+                <a href="destination-titan.html"
+                  ><button class="bttn acive">Titan</button></a
+                >
+              </div>
+            </li>
+          </div>
+          <div class="space" id="sped" style="margin-left: 3vh">TITAN</div>
+
+          <div class="ontitan">
+            Titan The only moon known to have a dense atmosphere other than
+            Earth, Titan is a home away from home (just a few hundred degrees
+            colder!). As a bonus, you get striking views of the Rings of Saturn.
+          </div>
+          <div class="lane">ufyufv</div>
+
+          <div class="movement">
+            <div class="speed" id="spead">
+              <div class="average">AVG. DISTANCE</div>
+              <div class="km">1.6 BIL. KM</div>
+            </div>
+            <div class="speed" id="speed">
+              <div class="average">EST.TRAVEL TIME</div>
+              <div class="km">7 YEARS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.display = "block";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.display = "none";
+      }
+    </script>
+  </body>
+</html>

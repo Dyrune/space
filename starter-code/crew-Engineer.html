@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body>
+    <div class="crew">
+      <div class="topper">
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="logo1"
+            width="48"
+            height="48"
+          >
+            <g fill="none" fill-rule="evenodd">
+              <circle cx="24" cy="24" r="24" fill="#FFF" />
+              <path
+                fill="#0B0D17"
+                d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"
+              />
+            </g>
+          </svg>
+        </div>
+        <div class="backline">
+          <div class="line"></div>
+        </div>
+
+        <div class="parttop">
+          <button class="btn">
+            <div class="hommer">
+              <li>
+                <a href="index.html"><b>00 </b> &nbsp;&nbsp;&nbsp;Home</a>
+              </li>
+            </div></button
+          ><button class="btn">
+            <div class="hommer">
+              <li>
+                <a href="destination-moon.html"
+                  ><b>01 </b> &nbsp;&nbsp;&nbsp;Destination</a
+                >
+              </li>
+            </div></button
+          ><button class="btn active">
+            <div class="hommer">
+              <li>
+                <a href="crew-commander.html">
+                  <b>02 </b> &nbsp;&nbsp;&nbsp;Crew</a
+                >
+              </li>
+            </div></button
+          ><button class="btn">
+            <div class="hommer">
+              <li>
+                <a href="technology-capsule.html">
+                  <b>03 </b> &nbsp;&nbsp;&nbsp;Technology</a
+                >
+              </li>
+            </div>
+          </button>
+        </div>
+
+
+
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <div class="overlay-content">
+            <div>
+              <li>
+                <a href="index.html">&nbsp;&nbsp;&nbsp;Home</a>
+              </li>
+            </div>
+            <div>
+              <li>
+                <a href="destination-moon.html"
+                  >&nbsp;&nbsp;&nbsp;Destination</a
+                >
+              </li>
+            </div>
+            <div>
+              <li>
+                <a href="crew-commander.html"> &nbsp;&nbsp;&nbsp;Crew</a>
+              </li>
+            </div>
+            <div>
+              <li>
+                <a href="technology-capsule.html">
+                  &nbsp;&nbsp;&nbsp;Technology</a
+                >
+              </li>
+            </div>
+          </div>
+        </div>
+
+        <span
+          class="burger"
+          style="font-size: 30px; cursor: pointer"
+          onclick="openNav()"
+          >&#9776;</span
+        >
+
+
+      </div>
+      <div class="clan">
+        <div class="crew1" id="crew5">
+          <div class="dest">
+            <b style="color: darkgray"> 02 </b> MEET YOUR CREW
+          </div>
+
+          <div class="mission">FLIGHT ENGINEER</div>
+
+          <div class="name">ANOUNSHEH ANSARI</div>
+          <div class="command" id="comm">
+            Anousheh Ansari is an Iranian American engineer and co-founder of
+            Prodea Systems. Ansari was the fourth self-funded space tourist, the
+            first self-funded woman to fly to the ISS, and the first Iranian in
+            space.
+          </div>
+          <div class="cic" id="cik">
+            <a href="crew-commander.html"
+              ><button class="btnn" i><div class="circ"></div></button
+            ></a>
+            <a href="crew-Engineer.html"
+              ><button class="btnn activ" i><div class="circ"></div></button
+            ></a>
+            <a href="crew-pilot.html"
+              ><button class="btnn" i><div class="circ"></div></button
+            ></a>
+            <a href="crew-specialistt.html"
+              ><button class="btnn" i><div class="circ"></div></button
+            ></a>
+          </div>
+        </div>
+
+
+
+        <div class="theflight">
+          <img
+            src="/starter-code/assets/crew/image-anousheh-ansari.png"
+            alt=""
+            style="width: 250px"
+            class="hurl"
+          />
+          <div class="those4">
+            <div class="cc" id="ci">
+              <a href="crew-commander.html"
+                ><button class="btnn" i><div class="circ"></div></button
+              ></a>
+              <a href="crew-Engineer.html"
+                ><button class="btnn active" i><div class="circ"></div></button
+              ></a>
+              <a href="crew-pilot.html"
+                ><button class="btnn" i><div class="circ"></div></button
+              ></a>
+              <a href="crew-specialistt.html"
+                ><button class="btnn" i><div class="circ"></div></button
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.display = "block";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
